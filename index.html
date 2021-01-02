@@ -29,7 +29,7 @@
 background: linear-gradient(109.8deg, #BED7F9 0%, #EECDD6 100%);
 box-shadow: 0px 0px 62px rgba(47, 128, 237, 0.3);
 border-radius: 20px;
-height: 180px;
+height: auto;
 }
 #homecardn{
 background: linear-gradient(109.8deg, #BED7F9 0%, #EECDD6 100%);
@@ -63,6 +63,12 @@ button:hover {
 border-radius: 15px;
 border: none;
 height: 44px;
+}
+@media screen and (max-width: 992px) {
+  #vwrp, #dwnld{
+      font-size: 10px;
+  }
+  
 }
 </style>
 <body>
@@ -238,13 +244,13 @@ height: 44px;
                   <p class="small py-0 my-0"><strong>REGISTRATION ID:</strong> ABC123</p>
                   <p class="small py-0 my-0"><strong>LAST ANALYSED DATE:</strong> 02-01-2020</p>
                   <p class="small py-0 my-0"><strong>INTERNAL REPORT ID:</strong> petrichor1609571651</p>
-                  <div class="col-md-8">
+                  <div class="col-md-9">
                       <div class="row mt-3">
                           <div class="col-6">
-                              <button style="background: linear-gradient(91.46deg, #2F80ED 0.51%, #9B51E0 94.3%);border: none;" class="btn  w-100 rounded-pill text-white shadow"><p class="small py-0 my-0"><i class="fas fa-eye"></i> VIEW REPORT</p></button>
+                              <button style="background: linear-gradient(91.46deg, #2F80ED 0.51%, #9B51E0 94.3%);border: none;" class="btn  w-100 rounded-pill text-white shadow"><p id="vwrp" class="small py-0 my-0"><i class="fas fa-eye"></i> VIEW REPORT</p></button>
                           </div>
                           <div class="col-6">
-                            <button class="btn btn-dark w-100 rounded-pill shadow"><p class="small py-0 my-0"><i class="fas fa-arrow-alt-circle-down"></i> DOWNLOAD</p></button>
+                            <button class="btn btn-dark w-100 rounded-pill shadow"><p id="dwnld" class="small py-0 my-0"><i class="fas fa-arrow-alt-circle-down"></i> DOWNLOAD</p></button>
                           </div>
                       </div>
                   </div>
@@ -258,13 +264,13 @@ height: 44px;
                 <p class="small py-0 my-0"><strong>REGISTRATION ID:</strong> ABC123</p>
                 <p class="small py-0 my-0"><strong>LAST ANALYSED DATE:</strong> 02-01-2020</p>
                 <p class="small py-0 my-0"><strong>INTERNAL REPORT ID:</strong> petrichor1609571651</p>
-                <div class="col-md-8">
+                <div class="col-md-9">
                     <div class="row mt-3">
                         <div class="col-6">
-                            <button style="background: linear-gradient(91.46deg, #2F80ED 0.51%, #9B51E0 94.3%);border: none;" class="btn  w-100 rounded-pill text-white shadow"><p class="small py-0 my-0"><i class="fas fa-eye"></i> VIEW REPORT</p></button>
+                            <button style="background: linear-gradient(91.46deg, #2F80ED 0.51%, #9B51E0 94.3%);border: none;" class="btn  w-100 rounded-pill text-white shadow"><p id="vwrp" class="small py-0 my-0"><i class="fas fa-eye"></i> VIEW REPORT</p></button>
                         </div>
                         <div class="col-6">
-                          <button class="btn btn-dark w-100 rounded-pill shadow"><p class="small py-0 my-0"><i class="fas fa-arrow-alt-circle-down"></i> DOWNLOAD</p></button>
+                          <button class="btn btn-dark w-100 rounded-pill shadow"><p id="dwnld" class="small py-0 my-0"><i class="fas fa-arrow-alt-circle-down"></i> DOWNLOAD</p></button>
                         </div>
                     </div>
                 </div>
@@ -277,13 +283,13 @@ height: 44px;
                 <p class="small py-0 my-0"><strong>REGISTRATION ID:</strong> ABC123</p>
                 <p class="small py-0 my-0"><strong>LAST ANALYSED DATE:</strong> 02-01-2020</p>
                 <p class="small py-0 my-0"><strong>INTERNAL REPORT ID:</strong> petrichor1609571651</p>
-                <div class="col-md-8">
+                <div class="col-md-9">
                     <div class="row mt-3">
                         <div class="col-6">
-                            <button style="background: linear-gradient(91.46deg, #2F80ED 0.51%, #9B51E0 94.3%);border: none;" class="btn  w-100 rounded-pill text-white shadow"><p class="small py-0 my-0"><i class="fas fa-eye"></i> VIEW REPORT</p></button>
+                            <button style="background: linear-gradient(91.46deg, #2F80ED 0.51%, #9B51E0 94.3%);border: none;" class="btn  w-100 rounded-pill text-white shadow"><p id="vwrp" class="small py-0 my-0"><i class="fas fa-eye"></i> VIEW REPORT</p></button>
                         </div>
                         <div class="col-6">
-                          <button class="btn btn-dark w-100 rounded-pill shadow"><p class="small py-0 my-0"><i class="fas fa-arrow-alt-circle-down"></i> DOWNLOAD</p></button>
+                          <button class="btn btn-dark w-100 rounded-pill shadow"><p id="dwnld" class="small py-0 my-0"><i class="fas fa-arrow-alt-circle-down"></i> DOWNLOAD</p></button>
                         </div>
                     </div>
                 </div>
@@ -296,13 +302,13 @@ height: 44px;
                 <p class="small py-0 my-0"><strong>REGISTRATION ID:</strong> ABC123</p>
                 <p class="small py-0 my-0"><strong>LAST ANALYSED DATE:</strong> 02-01-2020</p>
                 <p class="small py-0 my-0"><strong>INTERNAL REPORT ID:</strong> petrichor1609571651</p>
-                <div class="col-md-8">
+                <div class="col-md-9">
                     <div class="row mt-3">
                         <div class="col-6">
-                            <button style="background: linear-gradient(91.46deg, #2F80ED 0.51%, #9B51E0 94.3%);border: none;" class="btn  w-100 rounded-pill text-white shadow"><p class="small py-0 my-0"><i class="fas fa-eye"></i> VIEW REPORT</p></button>
+                            <button style="background: linear-gradient(91.46deg, #2F80ED 0.51%, #9B51E0 94.3%);border: none;" class="btn  w-100 rounded-pill text-white shadow"><p id="vwrp" class="small py-0 my-0"><i class="fas fa-eye"></i> VIEW REPORT</p></button>
                         </div>
                         <div class="col-6">
-                          <button class="btn btn-dark w-100 rounded-pill shadow"><p class="small py-0 my-0"><i class="fas fa-arrow-alt-circle-down"></i> DOWNLOAD</p></button>
+                          <button class="btn btn-dark w-100 rounded-pill shadow"><p id="dwnld" class="small py-0 my-0"><i class="fas fa-arrow-alt-circle-down"></i> DOWNLOAD</p></button>
                         </div>
                     </div>
                 </div>
@@ -315,13 +321,13 @@ height: 44px;
                 <p class="small py-0 my-0"><strong>REGISTRATION ID:</strong> ABC123</p>
                 <p class="small py-0 my-0"><strong>LAST ANALYSED DATE:</strong> 02-01-2020</p>
                 <p class="small py-0 my-0"><strong>INTERNAL REPORT ID:</strong> petrichor1609571651</p>
-                <div class="col-md-8">
+                <div class="col-md-9">
                     <div class="row mt-3">
                         <div class="col-6">
-                            <button style="background: linear-gradient(91.46deg, #2F80ED 0.51%, #9B51E0 94.3%);border: none;" class="btn  w-100 rounded-pill text-white shadow"><p class="small py-0 my-0"><i class="fas fa-eye"></i> VIEW REPORT</p></button>
+                            <button style="background: linear-gradient(91.46deg, #2F80ED 0.51%, #9B51E0 94.3%);border: none;" class="btn  w-100 rounded-pill text-white shadow"><p id="vwrp" class="small py-0 my-0"><i class="fas fa-eye"></i> VIEW REPORT</p></button>
                         </div>
                         <div class="col-6">
-                          <button class="btn btn-dark w-100 rounded-pill shadow"><p class="small py-0 my-0"><i class="fas fa-arrow-alt-circle-down"></i> DOWNLOAD</p></button>
+                          <button class="btn btn-dark w-100 rounded-pill shadow"><p id="dwnld" class="small py-0 my-0"><i class="fas fa-arrow-alt-circle-down"></i> DOWNLOAD</p></button>
                         </div>
                     </div>
                 </div>
